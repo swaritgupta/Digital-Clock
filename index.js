@@ -1,5 +1,5 @@
 var i=0;
-var images = ['bgimage.jpg','bgimage1.jpg','bgimage2.jpg','bgimage3.jpg','bgimage4.jpg','IMG_4425.JPG'];
+var images = ['bgimage.jpg','bgimage1.jpg','bgimage2.jpg','bgimage3.jpg','bgimage4.jpg'];
 var slideTime = 4000;
 function changeBg(){
   document.body.style.backgroundImage = "url(" + images[i] + ")";

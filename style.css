@@ -1,0 +1,27 @@
+body{
+  background-color: #F8EDE3;
+  opacity: 0.8;
+  background-image: url(bgimage.jpg);
+  background-size: cover;
+}
+.clock{
+  background-image: url(clockimg.jpg);
+  background-size: cover;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFABE1;
+  position: absolute;
+  letter-spacing: 5px;
+  top: 50%;
+  left:50%;
+  transform: translateX(-50%) translateY(-50%);
+  color: #937DC2;
+  font-size: 60px;
+  font-family:  'Montserrat', sans-serif;;
+  padding: 2rem 4rem;
+  border-radius: 20px;
+  box-shadow: inset 5px 5px 21px #C689C6, inset -5px -5px 21px #4d505e;
+
+}
